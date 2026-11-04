@@ -30,6 +30,36 @@ berichten = "overzicht"
 nachtpauze = "02:00-06:00"
 
 
+# Specifieke zoekopdrachten staan bovenaan: wat die melden, wordt in de
+# bredere zoekopdrachten hieronder overgeslagen. Zo zie je in je bericht
+# meteen of het om een ETB of booster box gaat.
+[[zoekopdracht]]
+naam = "Elite Trainer Box (Venray)"
+zoekterm = "elite trainer box"
+categorie = 1099         # Hobby en Vrije tijd
+subcategorie = 930       # Verzamelkaartspellen | Pokémon
+postcode = "5801MB"
+afstand_km = 25
+
+
+[[zoekopdracht]]
+naam = "ETB (Venray)"
+zoekterm = "etb"
+categorie = 1099
+subcategorie = 930
+postcode = "5801MB"
+afstand_km = 25
+
+
+[[zoekopdracht]]
+naam = "Booster box (Venray)"
+zoekterm = "booster box"
+categorie = 1099
+subcategorie = 930
+postcode = "5801MB"
+afstand_km = 25
+
+
 [[zoekopdracht]]
 naam = "Pokémon-kaarten (Venray)"
 categorie = 1099         # Hobby en Vrije tijd
